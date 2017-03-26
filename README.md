@@ -6,7 +6,7 @@ Omnivabot is a lightweight gem which allows to track parcels without actually go
 
 To start off, clone this repo
 
- $ git clone git@github.com:K43GFX/omnivabot.git
+    $ git clone git@github.com:K43GFX/omnivabot.git
 
 Go into omnivabot's directory, then execute:
 
@@ -19,8 +19,10 @@ in order to install all required dependencies.
 This gem comes with an executable which is used to put the application to work. 
 To add your tracking codes to tracking list, please open `bin/omnivabot` executable and add your tracking lines as shown in the example:
 
-`connector.discover('XXXXXXXXXXX') #this is your tracking code
-connector.discover('YYYYYYYYYYY') #you can also add another instance!`
+```
+connector.discover('XXXXXXXXXXX') #this is your tracking code
+connector.discover('YYYYYYYYYYY') #you can add multiple instances!
+```
 
 Now you can actually put the program to work. Execute while being on the gem's directory:
 
