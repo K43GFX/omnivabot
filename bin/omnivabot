@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'omnivabot'
+connector = Omnivabot::Connector.new
+
+connector.discover('RB183281587SG')
