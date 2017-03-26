@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'omnivabot'
-connector = Omnivabot::Connector.new
+tracker = Omnivabot::Connector.new
 
-connector.discover('RB183281587SG')
+tracker.discover('RB183281587SG') #this is your tracking code
+tracker.discover('RO327493673EE') #you can add multiple instances!
