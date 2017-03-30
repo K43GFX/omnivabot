@@ -15,7 +15,6 @@ Go into omnivabot's directory, then execute:
 in order to install all required Ruby dependencies.
 
 Now you need a ghost browser in a binary form. I have tested this gem with Chrome driver,
-
 you can get it here: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 When the binary is downloaded, please move it to your PATH. In Linux, 
