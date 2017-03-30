@@ -21,9 +21,7 @@ When the binary is downloaded, please move it to your PATH. In Linux,
 
     $ echo $PATH
 
-shows all the directories where you can put the chromedriver.
-
-Usually `/usr/bin/` works fine.
+shows all the directories where you can put the chromedriver. Usually `/usr/bin/` works fine.
 
 ## Usage
 
