@@ -20,9 +20,11 @@ you can get it here: https://sites.google.com/a/chromium.org/chromedriver/downlo
 
 When the binary is downloaded, please move it to your PATH. In Linux, 
 
-    $ /usr/bin/
+    $ echo $PATH
 
-should work by default.
+shows all the directories where you can put the chromedriver.
+
+Usually `/usr/bin/` works fine.
 
 ## Usage
 
